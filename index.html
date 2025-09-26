@@ -23,8 +23,9 @@
               minlength="3"
               maxlength="15"
               required
+              aria-describedby="username-hint"
             />
-            <small class="hint" id="username-hint">Username is required</small>
+            <small class="hint" id="username-hint" aria-live="polite">请输入用户名</small>
           </div>
 
           <div class="form-item">
@@ -36,8 +37,9 @@
               placeholder="Enter email"
               autocomplete="email"
               required
+              aria-describedby="email-hint"
             />
-            <small class="hint" id="email-hint">Email is required</small>
+            <small class="hint" id="email-hint" aria-live="polite">请输入邮箱</small>
           </div>
 
           <div class="form-item">
@@ -51,8 +53,9 @@
               minlength="6"
               maxlength="25"
               required
+              aria-describedby="password-hint"
             />
-            <small class="hint" id="password-hint">Password is required</small>
+            <small class="hint" id="password-hint" aria-live="polite">请输入密码</small>
           </div>
 
           <div class="form-item">
@@ -66,8 +69,9 @@
               minlength="6"
               maxlength="25"
               required
+              aria-describedby="confirmPassword-hint"
             />
-            <small class="hint" id="confirmPassword-hint">ConfirmPassword is required</small>
+            <small class="hint" id="confirmPassword-hint" aria-live="polite">请再次输入密码</small>
           </div>
 
           <button class="btn" type="submit">Register</button>

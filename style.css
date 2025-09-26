@@ -91,6 +91,11 @@ body {
   box-shadow: 0 0 0 3px rgba(46, 154, 208, 0.15);
 }
 
+/* highlight label when any child (input) is focused */
+.form-item:focus-within label {
+  color: var(--primary);
+}
+
 .form-item.success input {
   border-color: var(--success);
 }
